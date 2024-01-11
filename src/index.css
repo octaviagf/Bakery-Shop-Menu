@@ -1,13 +1,79 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: whitesmoke;
+}
+.header {
+  background-color: #add5fa;
+}
+
+.header h1 {
+  font-family: monospace;
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: bold;
+  height: 2rem;
+  padding: 1rem;
+}
+
+.headerimg {
+  padding: 2rem;
+}
+
+.headerimg .img {
+  display: block;
+  background-color: whitesmoke;
+  width: 100%;
+  height: 24rem;
+}
+
+.menu {
+  padding: 2rem;
+}
+
+.menu .text {
+  font-size: xx-large;
+  text-transform: uppercase;
+  background-color: #add5fa;
+  height: 2rem;
+}
+
+.menu img {
+  display: block;
+  margin: auto;
+  width: 19.7rem;
+  height: 12rem;
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+}
+
+.menu h2 {
+  list-style: none;
+  font-family: monospace;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.menu p {
+  list-style: none;
+  font-family: monospace;
+  font-size: x-large;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.item {
+  list-style-type: none;
+  border: solid 3px #add5fa;
+  margin: 2rem;
+  border-radius: 16.5px;
+  width: 19.7rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
